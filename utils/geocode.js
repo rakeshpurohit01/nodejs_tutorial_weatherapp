@@ -1,4 +1,4 @@
-const request =  require('postman-request');
+const request =  require('request');
 
 const geoCode = (address, callback) => {
     const GeoLocationApi = "https://api.mapbox.com/geocoding/v5/mapbox.places/"+encodeURIComponent(address)+".json?access_token=pk.eyJ1IjoicHVyb2hpdHJha2VzaDI3IiwiYSI6ImNrc2M2YTBtOTBkcHYyd3BrNGloZjYwdmsifQ.50O02ZDzK9xlM0ue_VG-mg&limit=1";
